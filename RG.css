@@ -1,15 +1,47 @@
-header{width: 100vw; height: 60px; background-color: rgba(0, 144, 12, 0.634);display: flex; justify-content: center; top: -60px; position: fixed; transition: all 200ms 300ms;}
+header{width: 100vw; height: 60px; background-color: rgb(0, 144, 12);display: flex; justify-content: center; top: -60px; position: fixed; transition: all 200ms 300ms;}
 header:hover{top: 0; transition: 300ms;}
 header:hover .but{transition: all 400ms; transition-delay: 500ms;}
 header:hover .but{opacity: 0; transition: all 100ms;}
+header:hover .a_nav2{opacity: 1; transition: all 400ms;}
 .but{width: 200px; height: 20px; background-color: #35ff684f; border-radius: 0 0 20px 20px; position: fixed; top: 0; transition: all 500ms 600ms; display: flex; justify-content: center; align-items: center;}
 .firstbox{display: flex; justify-content: center;}
 span{display: block; }
 
-
-
-
+.secondbox{width: 100vw; height: 400vh; display: flex;  align-items: center; flex-direction: column;}
+.text{width: 90vw; height: 30vh;  text-align: center; display: flex;  align-items: center; flex-direction: column; margin-bottom: 150px; margin-top: 70px;}
+.h1{width: 800px;  font-size: 95%;}
+.info{display: flex; flex-direction: row; width: 85vw; height: 600px; display: flex; justify-content: space-evenly;}
+.box{ width: 280px; height: 320px; box-shadow: 2px 2px 30px 1px #aacdb4; border-radius: 10px; background-color: #e5ffec;display: flex; flex-direction: column; ;}
+.boximg1{width: 65%; height: 58%; margin-left: 50px; margin-top: 10px; margin-bottom: -10px;}
+.boximg2{width: 70%; height: 65%; margin-left: 40px; margin-top: 4px; margin-bottom: -30px;}
+.boximg3{width: 84%; height: 78%; margin-left: 40px; margin-top: 10px; margin-bottom: -30px;}
+h5{margin-left: 10px;}
+.logo{width: 8%; height: 80%; border: 1px solid #000;}
+nav{width: 40%; display: flex; justify-content: center;}
+.a_img{width: 100%; height: 85%; border: 2px solid #000; border-radius: 50px; background-color: #fff; transition: all 200ms;}
+.head{width: 95vw; height: 100%; display: flex; justify-content: space-between; flex-direction: row; flex-wrap: nowrap;}
+.a_nav2{margin: 4% 5% 0 0; color: #002009; text-decoration-line: none; opacity: 0; transition: all 100ms 300ms;}
+.a_nav2:hover{font-size: 120%; transition: all 200ms; color: #00cb39;}
+.a_img:hover{height: 88%; box-shadow: 0px 0px 10px 0px rgb(255, 255, 255); transition: all 400ms;}
 @media screen and (max-width:980px){
     header{opacity: 0;
     pointer-events: none;}
+}
+@media screen and (max-width:980px){
+   .text{width: 500px; font-size: 85%;}
+   .h1{width: 430px; font-size: 80%;}
+   .info{width: 80vw; height: 600px;  flex-direction: row; flex-wrap: wrap;}
+   .box{width: 210px; height: 270px;}
+   .boximg1{width: 60%; height: 53%; margin-left: 50px; margin-top: 10px; margin-bottom: -10px;}
+.boximg2{width: 65%; height: 60%; margin-left: 40px; margin-top: 4px; margin-bottom: -30px;}
+.boximg3{width: 79%; height: 73%; margin-left: 40px; margin-top: 10px; margin-bottom: -30px;}
+}
+@media screen and (max-width:530px){
+    .info{width: 80vw; height: 500px;  flex-direction: row; flex-wrap: wrap;}
+   .box{width: 180px; height: 230px;}
+   .boximg1{width: 55%; height: 48%; margin-left: 45px; margin-top: 10px; margin-bottom: -10px;}
+.boximg2{width: 60%; height: 55%; margin-left: 35px; margin-top: 4px; margin-bottom: -30px;}
+.boximg3{width: 74%; height: 69%; margin-left: 35px; margin-top: 10px; margin-bottom: -30px;}
+.text{width: 300px; font-size: 78%;}
+.h1{width: 280px; font-size: 79%;}
 }

@@ -1,5 +1,5 @@
-body{margin: 0; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
-.Menu{background-color: rgba(77, 193, 0, 0.699);
+body{margin: 0; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; background-color: #eefff2; height: 500vh;}
+.Menu{background-color: rgb(77, 193, 0);
     opacity: 0;
     pointer-events: none;
 margin: 0;
@@ -30,7 +30,7 @@ width: 60px;
 height: 60px;
 justify-content: center;
 align-items: center;
-background-color: rgba(77, 193, 0, 0.699); border-radius: 0px 0px 20px 0px;
+background-color: rgb(77, 193, 0); border-radius: 0px 0px 20px 0px;
 text-decoration-line: none; color: rgb(255, 255, 255);
 font-size: 30px;
 transition: all 200ms;}
